@@ -3067,6 +3067,7 @@ input[type="submit"].button {
   text-align: left;
   top: 100%;
   z-index: 1000;
+  white-space: nowrap;
 }
 
 .divider {
@@ -3088,12 +3089,12 @@ input[type="submit"].button {
   width: 100%;
 }
 
-.dropdown-item:hover, .dropdown-item.active, .dropdown-item:active {
+.dropdown-item:hover, .dropdown-item.is-active, .dropdown-item:active {
   background-color: #f9f9f9;
   text-decoration: none;
 }
 
-.dropdown-item.disabled, .dropdown-item:disabled {
+.dropdown-item.is-disabled, .dropdown-item:disabled {
   background-color: transparent;
   color: #7a7a7a;
   cursor: not-allowed;
